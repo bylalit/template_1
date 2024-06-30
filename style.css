@@ -15,8 +15,8 @@
 }
 
 .hero .card{
-    width: 200px;
-    height: 60%;
+    width: 20%;
+    height: 55%;
     background-color: white;
     border-radius: 10%;
     overflow: hidden;
@@ -33,7 +33,7 @@
 
 .hero .card .img img{
     width: 25%;
-    height: 50%;
+    height: 55%;
     border-radius: 50%;
 }
 
@@ -55,12 +55,25 @@
 }
 
 
+.hero .card .icon{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 40px;
+}
 
+.hero .card .icon i{
+    font-size: 11px;
+    cursor: pointer;
+}
 
 .hero .card .text p{
-    font-size: 9px;
+    font-size: 7px;
+    line-height: 10px;
     padding: 0 20px;
     text-align: center;
+    margin-top: 10px;
 }
 
 .hero .card .btn{
@@ -70,3 +83,18 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.hero .card .btn button{
+    border-radius: 5px;
+    border: none;
+    padding: 5px 15px;
+    font-size: 8px;
+    font-weight: bolder;
+    background-color: palevioletred;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+
